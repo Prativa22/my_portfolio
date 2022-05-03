@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import proud from "../../assests/images/proud.svg";
 
 const Greeting = (props) => {
   const theme = props.theme;
@@ -43,8 +44,8 @@ const Greeting = (props) => {
             </div>
           </div>
           <div className="greeting-image-div">
-           
-            <FeelingProud theme={theme} />
+            {/* <FeelingProud theme={theme} /> */}
+            <img src={proud} alt="feeling proud" />
           </div>
         </div>
       </div>
